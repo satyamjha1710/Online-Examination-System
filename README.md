@@ -27,15 +27,15 @@ This Repository contains mini project based on online examination system.
    <table>
   <tr>
     <td align="center">
-  <a href="https://en.wikipedia.org/wiki/HTML"><img src="resources/html.jpg" width="80px;" height="80px;"  alt=""/><br /><sub><b>HTML5</b></sub></a></td>
+  <a href="https://en.wikipedia.org/wiki/HTML"><br /><sub><b>HTML5</b></sub></a></td>
    <td align="center">
-  <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><img src="resources/css.jpg" width="80px;" height="80px;"  alt=""/><br /><sub><b>CSS3</b></sub></a></td>
+  <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><br /><sub><b>CSS3</b></sub></a></td>
     <td align="center">
-  <a href=""><img src="resources/boot.jpg" width="80px;" height="80px;"  alt=""/><br /><sub><b>MERN</b></sub></a></td>
+  <a href=""><br /><sub><b>MERN</b></sub></a></td>
    <td align="center">
-  <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="resources/js.jpg" width="80px;" height="80px;"  alt=""/><br /><sub><b>JAVASCRIPT</b></sub></a></td>
+  <a href="https://en.wikipedia.org/wiki/JavaScript"><br /><sub><b>JAVASCRIPT</b></sub></a></td>
       <td align="center">
-   <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code"><img src="resources/vs.jpg" width="80px;" height="80px;" alt=""/><br /><sub><b>VSCODE</b></sub></a></td>
+   <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code"><br /><sub><b>VSCODE</b></sub></a></td>
  </tr>
  </table>
  
