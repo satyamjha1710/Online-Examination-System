@@ -1,4 +1,4 @@
-# Online-Objective-Examination-System
+# Online-Examination-System
 This Repository contains mini project based on online examination system.
 
 ### Table of Content
