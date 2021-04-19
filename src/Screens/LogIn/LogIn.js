@@ -17,7 +17,7 @@ class LogIn extends Component {
       sessionStorage.setItem("userInfo", JSON.stringify(userInfo));
       this.props.changeUserState();
     } else {
-      console.log("enter correct details");
+      alert("enter correct details");
     }
     // console.log(JSON.parse(sessionStorage.getItem("userInfo")));
   }
@@ -50,6 +50,7 @@ class LogIn extends Component {
               autoComplete="true"
               autoFocus={true}
               placeholder="email"
+              required="true"
             />
           </div>
           </div>
@@ -67,6 +68,7 @@ class LogIn extends Component {
               }
               className="form-control"
               placeholder="password"
+              required="true"
             />
           </div>
           </div>

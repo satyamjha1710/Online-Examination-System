@@ -101,7 +101,7 @@ class MCQs extends Component {
             score
           });
 
-        
+          document.getElementById("ExamContainer").style.display = "none";
           document.getElementById("resultContainer").style.display = "block";
         }
       }

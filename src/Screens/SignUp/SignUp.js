@@ -59,6 +59,7 @@ class SignUp extends Component {
                     autoFocus={true}
                     className="form-control"
                     placeholder="name"
+                    required="true"
                   />
                 </div>
               </div>
