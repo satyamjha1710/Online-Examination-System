@@ -455,7 +455,7 @@ class ExamList extends Component {
     const { saveSelectedExamObj } = this.state;
     return (
       <div>
-        <h2>{saveSelectedExamObj.ExamName} Exam</h2>
+        <h2 className="text-center"><i class="fa fa-desktop" aria-hidden="true" />  {saveSelectedExamObj.ExamName} Exam</h2>
 
         <div className="row">
           {saveSelectedExamObj.tests.map((test, i) => {
@@ -507,7 +507,7 @@ class ExamList extends Component {
     const { Exam_list } = this.state;
     return (
       <div>
-        <h1 className="text-center">Dashboard</h1>
+        <h1 className="text-center"><i className=" fa fa-desktop" />   Dashboard</h1>
 
         <div className="row">
           {Exam_list.map((qList, index) => {
