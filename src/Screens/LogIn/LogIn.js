@@ -31,13 +31,12 @@ class LogIn extends Component {
     }
     return (
       <div>
-        <h1 className="text-center">Log In</h1>
+        <h1 className="text-center"><i className="fa fa-sign-in" /> Log In </h1>
         <div style={style} className="d-flex justify-content-center align-items-center border border-dark">
           <form>
           <div className="row form-group">
           <div className="col-md-12">
-            <label htmlFor="email" className="">
-              Email:
+            <label htmlFor="email" className=""><i class="fa fa-envelope-o" aria-hidden="true" /> Email:
             </label>
             <input
               type="email"
@@ -57,7 +56,7 @@ class LogIn extends Component {
           <div className="row form-group">
           <div className="col-md-12">
             <label htmlFor="password" className="">
-              Password:
+            <i class="fa fa-key fa-fw"></i>  Password:
             </label>
             <input
               type="password"

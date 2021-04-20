@@ -40,7 +40,7 @@ class SignUp extends Component {
 
     return (
       <div>
-        <h1 className="text-center">Registration</h1>
+        <h1 className="text-center"><i class="fa fa-id-card-o" aria-hidden="true" />  Registration</h1>
         <div
           style={style}
           className="d-flex justify-content-center align-items-center border border-dark"
@@ -50,7 +50,7 @@ class SignUp extends Component {
             <div className="form-group">
               <div className="row">
                 <div className="col-md-12">
-                  <label htmlFor="name">Username:</label>
+                  <label htmlFor="name"><i class="fa fa-user" aria-hidden="true" /> Username:</label>
                   <input
                     type="text"
                     onChange={(e) => {
@@ -68,7 +68,7 @@ class SignUp extends Component {
             <div className="form-group">
               <div className="row">
                 <div className="col-md-12">
-                  <label htmlFor="number">Email:</label>
+                  <label htmlFor="number"><i class="fa fa-envelope-o" aria-hidden="true" />  Email:</label>
                   <input
                     type="email"
                     onChange={(e) => {
@@ -84,7 +84,7 @@ class SignUp extends Component {
             <div className="form-group">
               <div className="row">
                 <div className="col-md-12">
-                  <label htmlFor="number">password:</label>
+                  <label htmlFor="number"><i class="fa fa-key fa-fw"></i> password:</label>
                   <input
                     type="password"
                     onChange={(e) => {
